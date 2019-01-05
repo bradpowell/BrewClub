@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brad.BrewClub.WebUI", "BrewClub\Brad.BrewClub.WebUI.csproj", "{46A3ECDD-E64D-4447-BC1D-BF04657E33A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brad.BrewClub.WebUI", "src\Brad.BrewClub.WebUI\Brad.BrewClub.WebUI.csproj", "{46A3ECDD-E64D-4447-BC1D-BF04657E33A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brad.BrewClub.Services", "Brad.BrewClub.Services\Brad.BrewClub.Services.csproj", "{6BECB62F-9F3F-45FC-8229-8A8CCE1FD4FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brad.BrewClub.Services", "src\Brad.BrewClub.Services\Brad.BrewClub.Services.csproj", "{6BECB62F-9F3F-45FC-8229-8A8CCE1FD4FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brad.BrewClub.Data", "Brad.BrewClub.Data\Brad.BrewClub.Data.csproj", "{01339639-0A1A-4D92-A940-24151DEF783C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brad.BrewClub.Data", "src\Brad.BrewClub.Data\Brad.BrewClub.Data.csproj", "{01339639-0A1A-4D92-A940-24151DEF783C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
