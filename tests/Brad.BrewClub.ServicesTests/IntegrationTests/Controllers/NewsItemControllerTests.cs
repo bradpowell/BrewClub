@@ -27,6 +27,8 @@ namespace Brad.BrewClub.ServicesTests.IntegrationTests.Controllers
 
             httpResponse.EnsureSuccessStatusCode();
 
+
+
             var stringResponse = await httpResponse.Content.ReadAsStringAsync();
             var newsItems = JsonConvert.DeserializeObject<IEnumerable<NewsItem>>(stringResponse);
             Assert.Contains(newsItems, newsItem => newsItem.Id == 1);
