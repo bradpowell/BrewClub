@@ -40,10 +40,8 @@ namespace Brad.BrewClub.ServicesTests.IntegrationTests
 
                     try
                     {
-                        //TODO: Seed the dummy data.
-
                         // Seed the database with some specific test data.
-                        SeedData.PopulateTestData(testBrewClubDbContext);
+                        NewsItemTestDataSeeder.SetTestData(testBrewClubDbContext);
                     }
                     catch (Exception ex)
                     {

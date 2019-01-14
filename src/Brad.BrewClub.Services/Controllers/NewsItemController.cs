@@ -20,16 +20,6 @@ namespace Brad.BrewClub.Services.Controllers
         public NewsItemController(BrewClubDbContext brewClubDbContext, IMapper dataModelMapper)
         {
             this.brewClubDbContext = brewClubDbContext;
-
-            //TODO: Remove when DB is no longer in memory
-            this.brewClubDbContext.NewsItems.Add(new NewsItemData
-            {
-                NewsItemID = 1,
-                Body = "blah blah blah",
-                DateCreated = DateTime.Now.AddDays(-3),
-                Title = "The First Post"
-            });
-
             this.dataModelMapper = dataModelMapper;
         }
 

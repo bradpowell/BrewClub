@@ -7,7 +7,7 @@ namespace Brad.BrewClub.Services.Models
 {
     public class NewsItem
     {
-        public int NewsItemID { get; set; }
+        public int Id { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime? DateModified { get; set; }
         public string Title { get; set; }
