@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BrewClub.Pages
+namespace Brad.BrewClub.WebUI.Pages
 {
-    public class ContactModel : PageModel
+    public class ClubInfoModel : PageModel
     {
         public string Message { get; set; }
 
         public void OnGet()
         {
-            Message = "Put contact info here: FB Group, possibly a main email address for the group";
+            Message = "Put in description of the club.";
         }
     }
 }

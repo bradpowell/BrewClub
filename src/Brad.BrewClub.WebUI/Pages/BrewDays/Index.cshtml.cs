@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BrewClub.Pages
+namespace Brad.BrewClub.WebUI.Pages.BrewDays
 {
-    public class AboutModel : PageModel
+    public class IndexModel : PageModel
     {
         public string Message { get; set; }
 
         public void OnGet()
         {
-            Message = "Put in description of the club.";
+            Message = "Members can post brew days and meetups";
         }
     }
 }

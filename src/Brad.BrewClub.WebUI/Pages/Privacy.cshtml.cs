@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BrewClub.Pages
+namespace Brad.BrewClub.WebUI.Pages
 {
     public class PrivacyModel : PageModel
     {
